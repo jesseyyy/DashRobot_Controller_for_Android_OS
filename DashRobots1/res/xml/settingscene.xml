@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Basic" >
+        <CheckBoxPreference
+            android:key="redColor"
+            android:title="red eye" />
+        <CheckBoxPreference
+            android:key="yellowColor"
+            android:title="yellow eye" />
+        <CheckBoxPreference
+            android:key="blueColor"
+            android:title="blue eye" />
+        <CheckBoxPreference
+            android:key="greenColor"
+            android:title="green eye" />
+        <CheckBoxPreference
+            android:key="whiteColor"
+            android:title="white eye" />
+        <CheckBoxPreference
+            android:key="blueColor"
+            android:title="blue eye" />
+        <CheckBoxPreference
+            android:key="turnofflight"
+            android:title="close eye" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

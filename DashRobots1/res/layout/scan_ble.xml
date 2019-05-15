@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/imageButtonAutodance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/autodance" />
+
+    <ImageButton
+        android:id="@+id/imageButtonAutofigure8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageButtonAutodance"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/autofigure8" />
+
+    <ImageButton
+        android:id="@+id/imageButtonEyeBig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageButtonEyeBigoff"
+        android:layout_alignParentRight="true"
+
+        android:src="@drawable/eyebig" />
+
+    <Button
+        android:id="@+id/buttonwhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/buttonyellow"
+        android:text="white" />
+
+    <ImageButton
+        android:id="@+id/imageButtonEyeBigoff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageButtonAutodance"
+
+        android:src="@drawable/eyebigoff" />
+
+    <Button
+        android:id="@+id/buttongreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonwhite"
+        android:layout_alignLeft="@+id/buttonwhite"
+        android:text="green" />
+
+    <Button
+        android:id="@+id/buttonblue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttongreen"
+        android:layout_alignRight="@+id/buttonwhite"
+        android:text="blue" />
+
+    <Button
+        android:id="@+id/buttonyellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageButtonAutofigure8"
+        android:layout_alignLeft="@+id/imageButtonDownArrow"
+        android:layout_marginLeft="34dp"
+        android:text="yellow" />
+
+    <ImageButton
+        android:id="@+id/imageButtonAutocircle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonblue"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/autocircle" />
+
+    <ImageButton
+        android:id="@+id/imageButtonUpArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:layout_toLeftOf="@+id/imageButtonRightArrow"
+        android:src="@drawable/up_arrow" />
+
+    <ImageButton
+        android:id="@+id/imageButtonLeftArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageButtonRightArrow"
+        android:layout_toLeftOf="@+id/imageButtonUpArrow"
+        android:src="@drawable/left_arrow" />
+
+    <ImageButton
+        android:id="@+id/imageButtonRightArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageButtonUpArrow"
+        android:layout_marginTop="16dp"
+        android:layout_toRightOf="@+id/imageButtonDownArrow"
+        android:src="@drawable/right_arrow" />
+
+    <Button
+        android:id="@+id/buttonred"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonyellow"
+        android:layout_alignRight="@+id/buttonyellow"
+        android:text="red" />
+
+    <ImageButton
+        android:id="@+id/imageButtonDownArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButtonRightArrow"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:src="@drawable/down_arrow" />
+
+</RelativeLayout>
